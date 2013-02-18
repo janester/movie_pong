@@ -1,0 +1,24 @@
+<div id="win_container">
+  <div>
+    <h2>Congratulations! You beat the Internet!</h2>
+  </div>
+  <div class="said">
+    <h3>These are All of the Movies That Were Said:</h3>
+    <ul>
+      <% @final_movies.each do |movie| %>
+        <li><%= movie.title %> <%= movie.year%></li>
+      <% end %>
+    </ul>
+  </div>
+  <div class="said">
+    <h3>These are All of the Actors That Were Said:</h3>
+    <ul>
+      <% @final_actors.each do |actor| %>
+        <li><%= actor.name %></li>
+      <% end %>
+    </ul>
+  </div>
+  <form action="<%= play_start_path %>" method="get">
+    <button>Play Again</button>
+  </form>
+</div>

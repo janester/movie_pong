@@ -6,5 +6,6 @@ MoviePong::Application.routes.draw do
   get 'play/update_computer_score' => 'play#update_computer_score', :as => 'update_c'
   get 'play/find_movie' => 'play#find_movie'
   get 'play/' => 'play#play'
-  get 'score/' => 'score#_score'
+  get 'play/win' => 'play#win'
+  get 'play/lose' => 'play#lose'
 end

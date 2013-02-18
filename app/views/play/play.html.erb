@@ -3,6 +3,7 @@
   <h4><i><%= $movie.title %></i> (<%= $movie.year %>)</h4>
   <form action="<%= play_actor_check_path %>" method="post">
     <input type="hidden" value="<%= $movie.title %>" name="movie">
+    <input type="hidden" value="<%= $movie.tmdb_id %>" name="tmdb_id">
     <input type="text" name="name" autofocus>
     <button class="enter_but">Enter</button>
   </form>

@@ -6,6 +6,7 @@
     <button class="other_but">New Starting Movie</button>
   </form>
   <form action="<%= play_actor_check_path %>" method="post">
+    <input type="hidden" value="<%= @startmovie.tmdb_id %>" name="tmdb_id">
     <input type="hidden" value="<%= @startmovie.title %>" name="movie">
     <input type="hidden" value="<%= @startmovie.year %>" name="year">
     <input type="text" name="name" autofocus>

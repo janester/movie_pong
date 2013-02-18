@@ -10,5 +10,5 @@
 #
 
 class SaidMovie < ActiveRecord::Base
-  attr_accessible :title, :year
+  attr_accessible :title, :year, :tmdb_id
 end

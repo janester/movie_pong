@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(:version => 20130216150737) do
   create_table "said_movies", :force => true do |t|
     t.string   "title"
     t.string   "year"
+    t.integer  "tmdb_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -36,6 +37,7 @@ ActiveRecord::Schema.define(:version => 20130216150737) do
   create_table "start_movies", :force => true do |t|
     t.string   "title"
     t.string   "year"
+    t.integer  "tmdb_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end

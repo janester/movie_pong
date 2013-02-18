@@ -66,7 +66,7 @@ body {
   color: #5671AD;
   font-family: 'Antic Slab', serif;
 }
-#start_container, #home_container, #play_container {
+#start_container, #home_container, #play_container, #win_container, #lose_container {
   background: #58B065;
   text-align: center;
   padding: 10px 200px 10px 200px;
@@ -74,7 +74,6 @@ body {
   margin: auto;
   border-top: 10px solid #7F6C50;
   border-bottom: 10px solid #7F6C50;
-
 }
 
 #home_container {
@@ -110,6 +109,13 @@ button {
 }
 button:hover {
   border: 5px solid #5671AD;
+}
+
+.said {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  margin: 10px;
 }
 
 
