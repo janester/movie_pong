@@ -1,0 +1,14 @@
+
+<div id="start_container">
+  <h4>Start by Entering an Actor in</h4>
+  <h4><i><%= @startmovie.title %></i> (<%= @startmovie.year %>):</h4>
+  <form action="<%= play_start_path %>" method="get">
+    <button class="other_but">New Starting Movie</button>
+  </form>
+  <form action="<%= play_actor_check_path %>" method="post">
+    <input type="hidden" value="<%= @startmovie.title %>" name="movie">
+    <input type="hidden" value="<%= @startmovie.year %>" name="year">
+    <input type="text" name="name" autofocus>
+    <button class="enter_but">Start!</button>
+  </form>
+</div>

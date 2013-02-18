@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Pong</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <a href="/"><div id="logo"><%= image_tag("movieponglogo4.png")%><div id="logoback"></div><div id="bar"></div></div></a>
+  <div id="score_container"><span><%= render "score/score" %></span></div>
+
+<%= yield %>
+
+</body>
+</html>

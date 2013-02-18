@@ -1,0 +1,12 @@
+<div id="play_container">
+  <h4>Enter the name of an Actor in</h4>
+  <h4><i><%= $movie.title %></i> (<%= $movie.year %>)</h4>
+  <form action="<%= play_actor_check_path %>" method="post">
+    <input type="hidden" value="<%= $movie.title %>" name="movie">
+    <input type="text" name="name" autofocus>
+    <button class="enter_but">Enter</button>
+  </form>
+  <form action="<%= update_p_path %>" method="get">
+    <button class="other_but">I Don't Know</button>
+  </form>
+</div>

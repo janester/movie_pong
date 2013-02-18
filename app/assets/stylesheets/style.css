@@ -1,0 +1,121 @@
+@import url(http://fonts.googleapis.com/css?family=Antic+Slab);
+
+body {
+  background: #ED6256;
+  font-family: 'junction regular'
+}
+#logo {
+  margin: auto;
+  width: 1000px;
+  height: 253px;
+}
+
+#logo img {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+#bar {
+  width: 1000px;
+  height: 30px;
+  background: #7F6C50;
+  position: relative;
+  top: -227px;
+  z-index: 0;
+}
+#logoback {
+  width: 1000px;
+  height: 125px;
+  background: #FFF68C;
+  position: relative;
+  top: -227px;
+  z-index: 0;
+}
+
+#score_container {
+  width: 250px;
+  height: 250px;
+  background: #5671AD;
+  float: right;
+  position: relative;
+  top: -68px;
+  z-index: 0;
+  margin: 10px;
+  vertical-align: bottom;
+  text-align: center;
+  border: 5px solid #FFF68C;
+}
+
+#score_container span {
+  position: relative;
+  top: 100px;
+}
+
+
+#home_container h3 {
+  font-family: 'Antic Slab', serif;
+  font-size: 30px;
+  margin: 10px 0 10px 0;
+}
+#home_container div {
+  text-align: center;
+}
+#home_container h2 {
+  font-size: 50px;
+  color: #5671AD;
+  font-family: 'Antic Slab', serif;
+}
+#start_container, #home_container, #play_container {
+  background: #58B065;
+  text-align: center;
+  padding: 10px 200px 10px 200px;
+  width: 1000px;
+  margin: auto;
+  border-top: 10px solid #7F6C50;
+  border-bottom: 10px solid #7F6C50;
+
+}
+
+#home_container {
+  text-align: left;
+}
+
+#start_container h4, #play_container h4 {
+  font-size: 40px;
+  margin: 5px;
+}
+
+input {
+  border: none;
+  background: #FFF68C;
+  width: 500px;
+  height: 50px;
+  font-size: 40px;
+  margin: 10px;
+}
+
+button {
+  border: none;
+  background: #ED6256;
+}
+
+.other_but {
+  margin: 5px;
+  font-size: 30px;
+}
+
+.enter_but {
+  font-size: 40px;
+}
+button:hover {
+  border: 5px solid #5671AD;
+}
+
+
+
+
+
+
+
+
