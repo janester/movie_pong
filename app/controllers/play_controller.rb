@@ -1,5 +1,4 @@
-require 'HTTParty'
-require 'JSON'
+require 'httparty'
 
 class PlayController < ApplicationController
   def start
