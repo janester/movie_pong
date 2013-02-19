@@ -1,10 +1,10 @@
 <div id="lose_container">
   <div>
-    <h2>Sorry! You PONGed!</h2>
+    <span>Sorry! You've been<span><span><%= image_tag("/assets/ponged1.png") %></span>
   </div>
   <div>
     <h3>The Final Score Was:</h3>
-    <div><span>Player: <%= @final_score_player %></span><span>Computer: <%= @final_score_computer %></span></div>
+    <div><span class="final_score">Player: <%= @final_score_player %></span><span class="final_score">Computer: <%= @final_score_computer %></span></div>
   </div>
   <div class="said">
     <h3>These are All of the Movies That Were Said:</h3>

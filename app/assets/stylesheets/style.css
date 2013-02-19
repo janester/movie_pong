@@ -69,7 +69,7 @@ body {
 #start_container, #home_container, #play_container, #win_container, #lose_container {
   background: #58B065;
   text-align: center;
-  padding: 10px 200px 10px 200px;
+  padding: 10px 230px 10px 230px;
   width: 1000px;
   margin: auto;
   border-top: 10px solid #7F6C50;
@@ -111,12 +111,31 @@ button:hover {
   border: 5px solid #5671AD;
 }
 
-.said {
+.said, .final_score {
   display: inline-block;
   text-align: left;
   vertical-align: top;
   margin: 10px;
 }
+
+#lose_container img {
+  height: 120px;
+  width: 350px;
+  vertical-align: middle;
+  position: relative;
+  top: 20px;
+}
+
+#win_container img {
+  height: 120px;
+  width: 720px;
+}
+
+#win_container h2 {
+  position: relative;
+  top: -40px;
+}
+
 
 
 

@@ -1,6 +1,11 @@
 <div id="win_container">
   <div>
-    <h2>Congratulations! You beat the Internet!</h2>
+    <div><%= image_tag("/assets/congratulapongs1.png")%></div>
+    <h2>You win!</h2>
+  </div>
+  <div>
+    <h3>The Final Score Was:</h3>
+    <div><span class="final_score">Player: <%= @final_score_player %></span><span class="final_score">Computer: <%= @final_score_computer %></span></div>
   </div>
   <div class="said">
     <h3>These are All of the Movies That Were Said:</h3>
@@ -19,6 +24,6 @@
     </ul>
   </div>
   <form action="<%= play_start_path %>" method="get">
-    <button>Play Again</button>
+    <button class="other_but">Play Again</button>
   </form>
 </div>
